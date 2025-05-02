@@ -1,1 +1,40 @@
 
+# 🏥 Hospital Management System – SQL Mini Project
+
+This is a backend-focused SQL project for managing hospital operations including patient records, doctor schedules, appointments, and billing.
+
+## 📚 Features
+
+- Normalized database design with ER diagram
+- Schema creation using SQL
+- Insert statements with sample data
+- Useful SQL queries for hospital operations
+- Triggers and Views for automation and reporting
+
+## 🛠️ Technologies Used
+
+- MySQL
+- SQL
+- ER Diagram (Draw.io / dbdiagram.io)
+
+## 📁 File Structure
+
+- `schema.sql`: Contains all table creation scripts
+- `insert_data.sql`: Sample data insert statements
+- `queries.sql`: Sample queries for data retrieval
+- `triggers.sql`: Trigger to auto-generate billing info
+- `views.sql`: View for doctor-wise appointment stats
+- `ER_Diagram.png`: Visual ER diagram of the project
+
+## 🚀 How to Run
+
+1. Clone the repo
+2. Import all `.sql` files into your MySQL DBMS
+3. Run the SQL scripts in the following order:
+   - `schema.sql`
+   - `insert_data.sql`
+   - `triggers.sql`
+   - `views.sql`
+4. Run and test queries from `queries.sql`
+
+
